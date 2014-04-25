@@ -1,0 +1,14 @@
+!!! 5
+%html{style: 'height: 100%'}
+  %head
+    %title Two Player Dodge
+    %link{rel: 'stylesheet', href: '/stylesheets/bootstrap.css'}
+    %script{src: '/javascripts/bootstrap.js'}
+    %script{src: '/javascripts/jquery.js'}
+  %body{style: 'height: 100%;overflow:hidden;'}
+    .navbar{style: 'background-color: #0AFF74; border-radius: 0px;'}
+      .container#navbar-container{style: 'margin-top: 13px;'}
+        %h3{style: 'display:inline'} Welcome to Two Player Dodge
+        %a.play.pull-right{href: '#', style: 'font-size: 18px;color:inherit;'} Play Game
+    .container#body-container{style: 'background-color: #D0D0D0;border-radius:5px;height:100%;'}
+      = yield
