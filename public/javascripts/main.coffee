@@ -217,7 +217,7 @@ $(document).ready( ->
 
   $(document).on('click', '#instructions', (e) ->
     $('.modal-header').html("<h4>Instructions</h4>")
-    $('.modal-body').html("<p>Arrow Keys control the spaceship, while w-a-s-d control the block Spaceship needs to collide with the block, and the block needs to avoid the spaceship. Exiting the field of play is a loss.</p><button class = 'play btn btn-lg center-block' style = 'width: 500px;height:100px;margin-top:25px;margin-bottom:25px;border:1px solid black;'>Play Game</button>")
+    $('.modal-body').html("<p>Arrow Keys control the spaceship, while w-a-s-d control the enemy. Spaceship needs to collide with the enemy, and the enemy needs to avoid the spaceship. Exiting the field of play is a loss.</p><button class = 'play btn btn-lg center-block' style = 'width: 500px;height:100px;margin-top:25px;margin-bottom:25px;border:1px solid black;'>Play Game</button>")
     e.preventDefault()
   )
 )
